@@ -17,6 +17,11 @@ An overview over the various licenses can be found here:
 ## Gitignore
 [Gitignore Cheatsheet](https://linuxize.com/post/gitignore-ignoring-files-in-git/)
 
+Removing files that were already commited but later added to **.gitignore**:
+```
+git rm --cached file
+```
+
 ## Markdown
 Markdown is the format in which one styles files in both GitHub as well as in jupyter notebooks. It is a very easy filetype and can be transpiled in both HTML and LaTex. 
 **Further sources:**  
